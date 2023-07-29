@@ -1,0 +1,1760 @@
+2023-07-29 16:58:42: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:42:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:42:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:42:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:42:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:42:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:42:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:42:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:42:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:42:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:42:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:42:   code: 'EADDRINUSE',
+2023-07-29 16:58:42:   errno: -4091,
+2023-07-29 16:58:42:   syscall: 'listen',
+2023-07-29 16:58:42:   address: '::',
+2023-07-29 16:58:42:   port: 3000
+2023-07-29 16:58:42: }
+2023-07-29 16:58:43: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:43:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:43:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:43:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:43:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:43:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:43:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:43:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:43:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:43:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:43:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:43:   code: 'EADDRINUSE',
+2023-07-29 16:58:43:   errno: -4091,
+2023-07-29 16:58:43:   syscall: 'listen',
+2023-07-29 16:58:43:   address: '::',
+2023-07-29 16:58:43:   port: 3000
+2023-07-29 16:58:43: }
+2023-07-29 16:58:44: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:44:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:44:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:44:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:44:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:44:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:44:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:44:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:44:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:44:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:44:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:44:   code: 'EADDRINUSE',
+2023-07-29 16:58:44:   errno: -4091,
+2023-07-29 16:58:44:   syscall: 'listen',
+2023-07-29 16:58:44:   address: '::',
+2023-07-29 16:58:44:   port: 3000
+2023-07-29 16:58:44: }
+2023-07-29 16:58:45: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:45:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:45:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:45:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:45:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:45:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:45:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:45:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:45:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:45:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:45:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:45:   code: 'EADDRINUSE',
+2023-07-29 16:58:45:   errno: -4091,
+2023-07-29 16:58:45:   syscall: 'listen',
+2023-07-29 16:58:45:   address: '::',
+2023-07-29 16:58:45:   port: 3000
+2023-07-29 16:58:45: }
+2023-07-29 16:58:45: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:45:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:45:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:45:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:45:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:45:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:45:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:45:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:45:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:45:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:45:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:45:   code: 'EADDRINUSE',
+2023-07-29 16:58:45:   errno: -4091,
+2023-07-29 16:58:45:   syscall: 'listen',
+2023-07-29 16:58:45:   address: '::',
+2023-07-29 16:58:45:   port: 3000
+2023-07-29 16:58:45: }
+2023-07-29 16:58:46: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:46:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:46:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:46:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:46:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:46:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:46:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:46:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:46:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:46:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:46:   code: 'EADDRINUSE',
+2023-07-29 16:58:46:   errno: -4091,
+2023-07-29 16:58:46:   syscall: 'listen',
+2023-07-29 16:58:46:   address: '::',
+2023-07-29 16:58:46:   port: 3000
+2023-07-29 16:58:46: }
+2023-07-29 16:58:46: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:46:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:46:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:46:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:46:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:46:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:46:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:46:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:46:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:46:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:46:   code: 'EADDRINUSE',
+2023-07-29 16:58:46:   errno: -4091,
+2023-07-29 16:58:46:   syscall: 'listen',
+2023-07-29 16:58:46:   address: '::',
+2023-07-29 16:58:46:   port: 3000
+2023-07-29 16:58:46: }
+2023-07-29 16:58:47: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:47:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:47:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:47:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:47:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:47:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:47:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:47:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:47:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:47:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:47:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:47:   code: 'EADDRINUSE',
+2023-07-29 16:58:47:   errno: -4091,
+2023-07-29 16:58:47:   syscall: 'listen',
+2023-07-29 16:58:47:   address: '::',
+2023-07-29 16:58:47:   port: 3000
+2023-07-29 16:58:47: }
+2023-07-29 16:58:48: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:48:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:48:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:48:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:48:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:48:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:48:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:48:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:48:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:48:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:48:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:48:   code: 'EADDRINUSE',
+2023-07-29 16:58:48:   errno: -4091,
+2023-07-29 16:58:48:   syscall: 'listen',
+2023-07-29 16:58:48:   address: '::',
+2023-07-29 16:58:48:   port: 3000
+2023-07-29 16:58:48: }
+2023-07-29 16:58:48: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:48:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:48:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:48:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:48:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:48:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:48:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:48:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:48:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:48:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:48:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:48:   code: 'EADDRINUSE',
+2023-07-29 16:58:48:   errno: -4091,
+2023-07-29 16:58:48:   syscall: 'listen',
+2023-07-29 16:58:48:   address: '::',
+2023-07-29 16:58:48:   port: 3000
+2023-07-29 16:58:48: }
+2023-07-29 16:58:49: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:49:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:49:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:49:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:49:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:49:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:49:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:49:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:49:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:49:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:49:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:49:   code: 'EADDRINUSE',
+2023-07-29 16:58:49:   errno: -4091,
+2023-07-29 16:58:49:   syscall: 'listen',
+2023-07-29 16:58:49:   address: '::',
+2023-07-29 16:58:49:   port: 3000
+2023-07-29 16:58:49: }
+2023-07-29 16:58:49: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:49:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:49:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:49:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:49:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:49:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:49:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:49:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:49:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:49:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:49:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:49:   code: 'EADDRINUSE',
+2023-07-29 16:58:49:   errno: -4091,
+2023-07-29 16:58:49:   syscall: 'listen',
+2023-07-29 16:58:49:   address: '::',
+2023-07-29 16:58:49:   port: 3000
+2023-07-29 16:58:49: }
+2023-07-29 16:58:50: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:50:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:50:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:50:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:50:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:50:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:50:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:50:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:50:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:50:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:50:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:50:   code: 'EADDRINUSE',
+2023-07-29 16:58:50:   errno: -4091,
+2023-07-29 16:58:50:   syscall: 'listen',
+2023-07-29 16:58:50:   address: '::',
+2023-07-29 16:58:50:   port: 3000
+2023-07-29 16:58:50: }
+2023-07-29 16:58:51: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:51:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:51:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:51:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:51:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:51:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:51:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:51:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:51:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:51:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:51:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:51:   code: 'EADDRINUSE',
+2023-07-29 16:58:51:   errno: -4091,
+2023-07-29 16:58:51:   syscall: 'listen',
+2023-07-29 16:58:51:   address: '::',
+2023-07-29 16:58:51:   port: 3000
+2023-07-29 16:58:51: }
+2023-07-29 16:58:51: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:51:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:51:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:51:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:51:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:51:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:51:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:51:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:51:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:51:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:51:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:51:   code: 'EADDRINUSE',
+2023-07-29 16:58:51:   errno: -4091,
+2023-07-29 16:58:51:   syscall: 'listen',
+2023-07-29 16:58:51:   address: '::',
+2023-07-29 16:58:51:   port: 3000
+2023-07-29 16:58:51: }
+2023-07-29 16:58:52: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 16:58:52:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 16:58:52:     at listenInCluster (node:net:1788:12)
+2023-07-29 16:58:52:     at Server.listen (node:net:1876:7)
+2023-07-29 16:58:52:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 16:58:52:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 16:58:52:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 16:58:52:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 16:58:52:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 16:58:52:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 16:58:52:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 16:58:52:   code: 'EADDRINUSE',
+2023-07-29 16:58:52:   errno: -4091,
+2023-07-29 16:58:52:   syscall: 'listen',
+2023-07-29 16:58:52:   address: '::',
+2023-07-29 16:58:52:   port: 3000
+2023-07-29 16:58:52: }
+2023-07-29 17:01:27: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:27:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:27:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:27:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:27:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:27:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:27:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:27:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:27:   code: 'EADDRINUSE',
+2023-07-29 17:01:27:   errno: -4091,
+2023-07-29 17:01:27:   syscall: 'listen',
+2023-07-29 17:01:27:   address: '::',
+2023-07-29 17:01:27:   port: 3000
+2023-07-29 17:01:27: }
+2023-07-29 17:01:27: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:27:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:27:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:27:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:27:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:27:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:27:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:27:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:27:   code: 'EADDRINUSE',
+2023-07-29 17:01:27:   errno: -4091,
+2023-07-29 17:01:27:   syscall: 'listen',
+2023-07-29 17:01:27:   address: '::',
+2023-07-29 17:01:27:   port: 3000
+2023-07-29 17:01:27: }
+2023-07-29 17:01:28: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:28:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:28:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:28:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:28:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:28:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:28:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:28:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:28:   code: 'EADDRINUSE',
+2023-07-29 17:01:28:   errno: -4091,
+2023-07-29 17:01:28:   syscall: 'listen',
+2023-07-29 17:01:28:   address: '::',
+2023-07-29 17:01:28:   port: 3000
+2023-07-29 17:01:28: }
+2023-07-29 17:01:29: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:29:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:29:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:29:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:29:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:29:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:29:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:29:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:29:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:29:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:29:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:29:   code: 'EADDRINUSE',
+2023-07-29 17:01:29:   errno: -4091,
+2023-07-29 17:01:29:   syscall: 'listen',
+2023-07-29 17:01:29:   address: '::',
+2023-07-29 17:01:29:   port: 3000
+2023-07-29 17:01:29: }
+2023-07-29 17:01:30: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:30:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:30:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:30:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:30:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:30:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:30:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:30:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:30:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:30:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:30:   code: 'EADDRINUSE',
+2023-07-29 17:01:30:   errno: -4091,
+2023-07-29 17:01:30:   syscall: 'listen',
+2023-07-29 17:01:30:   address: '::',
+2023-07-29 17:01:30:   port: 3000
+2023-07-29 17:01:30: }
+2023-07-29 17:01:30: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:30:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:30:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:30:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:30:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:30:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:30:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:30:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:30:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:30:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:30:   code: 'EADDRINUSE',
+2023-07-29 17:01:30:   errno: -4091,
+2023-07-29 17:01:30:   syscall: 'listen',
+2023-07-29 17:01:30:   address: '::',
+2023-07-29 17:01:30:   port: 3000
+2023-07-29 17:01:30: }
+2023-07-29 17:01:31: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:31:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:31:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:31:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:31:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:31:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:31:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:31:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:31:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:31:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:31:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:31:   code: 'EADDRINUSE',
+2023-07-29 17:01:31:   errno: -4091,
+2023-07-29 17:01:31:   syscall: 'listen',
+2023-07-29 17:01:31:   address: '::',
+2023-07-29 17:01:31:   port: 3000
+2023-07-29 17:01:31: }
+2023-07-29 17:01:32: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:32:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:32:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:32:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:32:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:32:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:32:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:32:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:32:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:32:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:32:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:32:   code: 'EADDRINUSE',
+2023-07-29 17:01:32:   errno: -4091,
+2023-07-29 17:01:32:   syscall: 'listen',
+2023-07-29 17:01:32:   address: '::',
+2023-07-29 17:01:32:   port: 3000
+2023-07-29 17:01:32: }
+2023-07-29 17:01:32: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:32:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:32:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:32:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:32:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:32:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:32:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:32:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:32:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:32:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:32:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:32:   code: 'EADDRINUSE',
+2023-07-29 17:01:32:   errno: -4091,
+2023-07-29 17:01:32:   syscall: 'listen',
+2023-07-29 17:01:32:   address: '::',
+2023-07-29 17:01:32:   port: 3000
+2023-07-29 17:01:32: }
+2023-07-29 17:01:33: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:33:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:33:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:33:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:33:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:33:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:33:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:33:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:33:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:33:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:33:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:33:   code: 'EADDRINUSE',
+2023-07-29 17:01:33:   errno: -4091,
+2023-07-29 17:01:33:   syscall: 'listen',
+2023-07-29 17:01:33:   address: '::',
+2023-07-29 17:01:33:   port: 3000
+2023-07-29 17:01:33: }
+2023-07-29 17:01:34: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:34:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:34:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:34:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:34:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:34:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:34:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:34:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:34:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:34:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:34:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:34:   code: 'EADDRINUSE',
+2023-07-29 17:01:34:   errno: -4091,
+2023-07-29 17:01:34:   syscall: 'listen',
+2023-07-29 17:01:34:   address: '::',
+2023-07-29 17:01:34:   port: 3000
+2023-07-29 17:01:34: }
+2023-07-29 17:01:35: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:35:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:35:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:35:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:35:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:35:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:35:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:35:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:35:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:35:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:35:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:35:   code: 'EADDRINUSE',
+2023-07-29 17:01:35:   errno: -4091,
+2023-07-29 17:01:35:   syscall: 'listen',
+2023-07-29 17:01:35:   address: '::',
+2023-07-29 17:01:35:   port: 3000
+2023-07-29 17:01:35: }
+2023-07-29 17:01:35: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:35:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:35:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:35:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:35:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:35:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:35:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:35:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:35:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:35:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:35:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:35:   code: 'EADDRINUSE',
+2023-07-29 17:01:35:   errno: -4091,
+2023-07-29 17:01:35:   syscall: 'listen',
+2023-07-29 17:01:35:   address: '::',
+2023-07-29 17:01:35:   port: 3000
+2023-07-29 17:01:35: }
+2023-07-29 17:01:36: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:36:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:36:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:36:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:36:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:36:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:36:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:36:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:36:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:36:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:36:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:36:   code: 'EADDRINUSE',
+2023-07-29 17:01:36:   errno: -4091,
+2023-07-29 17:01:36:   syscall: 'listen',
+2023-07-29 17:01:36:   address: '::',
+2023-07-29 17:01:36:   port: 3000
+2023-07-29 17:01:36: }
+2023-07-29 17:01:37: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:37:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:37:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:37:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:37:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:37:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:37:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:37:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:37:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:37:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:37:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:37:   code: 'EADDRINUSE',
+2023-07-29 17:01:37:   errno: -4091,
+2023-07-29 17:01:37:   syscall: 'listen',
+2023-07-29 17:01:37:   address: '::',
+2023-07-29 17:01:37:   port: 3000
+2023-07-29 17:01:37: }
+2023-07-29 17:01:38: Error: listen EADDRINUSE: address already in use :::3000
+2023-07-29 17:01:38:     at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+2023-07-29 17:01:38:     at listenInCluster (node:net:1788:12)
+2023-07-29 17:01:38:     at Server.listen (node:net:1876:7)
+2023-07-29 17:01:38:     at Function.listen (D:\systemHeco\server\node_modules\express\lib\application.js:635:24)
+2023-07-29 17:01:38:     at Object.<anonymous> (D:\systemHeco\server\server0.js:47:5)
+2023-07-29 17:01:38:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 17:01:38:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 17:01:38:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 17:01:38:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 17:01:38:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23) {
+2023-07-29 17:01:38:   code: 'EADDRINUSE',
+2023-07-29 17:01:38:   errno: -4091,
+2023-07-29 17:01:38:   syscall: 'listen',
+2023-07-29 17:01:38:   address: '::',
+2023-07-29 17:01:38:   port: 3000
+2023-07-29 17:01:38: }
+2023-07-29 18:47:59: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:47:59: Require stack:
+2023-07-29 18:47:59: - D:\systemHeco\server\server0.js
+2023-07-29 18:47:59:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:47:59:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:47:59:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:47:59:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:47:59:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:47:59:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:47:59:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:47:59:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:47:59:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:47:59:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:47:59:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:47:59:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:47:59: }
+2023-07-29 18:48:01: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:01: Require stack:
+2023-07-29 18:48:01: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:01:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:01:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:01:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:01:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:01:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:01:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:01:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:01:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:01:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:01:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:01:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:01:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:01: }
+2023-07-29 18:48:02: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:02: Require stack:
+2023-07-29 18:48:02: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:02:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:02:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:02:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:02:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:02:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:02:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:02:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:02:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:02:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:02:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:02:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:02:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:02: }
+2023-07-29 18:48:03: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:03: Require stack:
+2023-07-29 18:48:03: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:03:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:03:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:03:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:03:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:03:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:03:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:03:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:03:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:03:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:03:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:03:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:03:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:03: }
+2023-07-29 18:48:05: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:05: Require stack:
+2023-07-29 18:48:05: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:05:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:05:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:05:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:05:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:05:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:05:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:05:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:05:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:05:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:05:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:05:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:05:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:05: }
+2023-07-29 18:48:06: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:06: Require stack:
+2023-07-29 18:48:06: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:06:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:06:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:06:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:06:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:06:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:06:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:06:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:06:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:06:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:06:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:06:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:06:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:06: }
+2023-07-29 18:48:07: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:07: Require stack:
+2023-07-29 18:48:07: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:07:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:07:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:07:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:07:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:07:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:07:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:07:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:07:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:07:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:07:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:07:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:07:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:07: }
+2023-07-29 18:48:08: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:08: Require stack:
+2023-07-29 18:48:08: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:08:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:08:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:08:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:08:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:08:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:08:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:08:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:08:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:08:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:08:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:08:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:08:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:08: }
+2023-07-29 18:48:10: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:10: Require stack:
+2023-07-29 18:48:10: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:10:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:10:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:10:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:10:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:10:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:10:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:10:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:10:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:10:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:10:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:10:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:10:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:10: }
+2023-07-29 18:48:11: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:11: Require stack:
+2023-07-29 18:48:11: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:11:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:11:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:11:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:11:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:11:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:11:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:11:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:11:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:11:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:11:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:11: }
+2023-07-29 18:48:12: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:12: Require stack:
+2023-07-29 18:48:12: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:12:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:12:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:12:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:12:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:12:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:12:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:12:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:12:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:12:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:12:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:12: }
+2023-07-29 18:48:13: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:13: Require stack:
+2023-07-29 18:48:13: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:13:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:13:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:13:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:13:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:13:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:13:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:13:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:13:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:13:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:13:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:13: }
+2023-07-29 18:48:14: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:14: Require stack:
+2023-07-29 18:48:14: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:14:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:14:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:14:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:14:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:14:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:14:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:14:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:14:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:14:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:14:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:14: }
+2023-07-29 18:48:15: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:15: Require stack:
+2023-07-29 18:48:15: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:15:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:15:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:15:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:15:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:15:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:15:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:15:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:15:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:15:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:15:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:15: }
+2023-07-29 18:48:17: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:17: Require stack:
+2023-07-29 18:48:17: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:17:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:17:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:17:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:17:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:17:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:17:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:17:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:17:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:17:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:17:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:17:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:17:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:17: }
+2023-07-29 18:48:18: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:18: Require stack:
+2023-07-29 18:48:18: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:18:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:18:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:18:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:18:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:18:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:18:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:18:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:18:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:18:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:18:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:18:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:18:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:18: }
+2023-07-29 18:48:20: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:20: Require stack:
+2023-07-29 18:48:20: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:20:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:20:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:20:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:20:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:20:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:20:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:20:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:20:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:20:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:20:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:20:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:20:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:20: }
+2023-07-29 18:48:21: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:21: Require stack:
+2023-07-29 18:48:21: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:21:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:21:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:21:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:21:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:21:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:21:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:21:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:21:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:21:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:21:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:21:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:21:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:21: }
+2023-07-29 18:48:22: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:22: Require stack:
+2023-07-29 18:48:22: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:22:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:22:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:22:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:22:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:22:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:22:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:22:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:22:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:22:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:22:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:22:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:22:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:22: }
+2023-07-29 18:48:23: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:23: Require stack:
+2023-07-29 18:48:23: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:23:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:23:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:23:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:23:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:23:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:23:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:23:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:23:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:23:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:23:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:23:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:23:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:23: }
+2023-07-29 18:48:24: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:24: Require stack:
+2023-07-29 18:48:24: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:24:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:24:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:24:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:24:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:24:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:24:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:24:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:24:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:24:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:24:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:24:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:24:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:24: }
+2023-07-29 18:48:26: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:26: Require stack:
+2023-07-29 18:48:26: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:26:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:26:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:26:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:26:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:26:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:26:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:26:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:26:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:26:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:26:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:26: }
+2023-07-29 18:48:27: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:27: Require stack:
+2023-07-29 18:48:27: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:27:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:27:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:27:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:27:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:27:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:27:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:27:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:27:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:27: }
+2023-07-29 18:48:28: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:28: Require stack:
+2023-07-29 18:48:28: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:28:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:28:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:28:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:28:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:28:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:28:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:28:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:28:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:28: }
+2023-07-29 18:48:30: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:30: Require stack:
+2023-07-29 18:48:30: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:30:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:30:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:30:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:30:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:30:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:30:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:30:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:30:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:30:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:30:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:30:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:30:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:30: }
+2023-07-29 18:48:31: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:31: Require stack:
+2023-07-29 18:48:31: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:31:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:31:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:31:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:31:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:31:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:31:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:31:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:31:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:31:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:31:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:31:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:31:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:31: }
+2023-07-29 18:48:33: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:33: Require stack:
+2023-07-29 18:48:33: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:33:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:33:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:33:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:33:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:33:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:33:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:33:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:33:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:33:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:33:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:33:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:33:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:33: }
+2023-07-29 18:48:34: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:34: Require stack:
+2023-07-29 18:48:34: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:34:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:34:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:34:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:34:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:34:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:34:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:34:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:34:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:34:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:34:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:34:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:34:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:34: }
+2023-07-29 18:48:35: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:48:35: Require stack:
+2023-07-29 18:48:35: - D:\systemHeco\server\server0.js
+2023-07-29 18:48:35:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:48:35:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:48:35:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:48:35:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:48:35:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:48:35:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:48:35:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:48:35:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:48:35:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:48:35:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:48:35:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:48:35:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:48:35: }
+2023-07-29 18:49:37: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:37: Require stack:
+2023-07-29 18:49:37: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:37:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:37:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:37:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:37:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:37:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:37:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:37:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:37:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:37:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:37:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:37:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:37:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:37: }
+2023-07-29 18:49:38: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:38: Require stack:
+2023-07-29 18:49:38: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:38:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:38:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:38:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:38:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:38:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:38:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:38:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:38:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:38:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:38:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:38:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:38:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:38: }
+2023-07-29 18:49:39: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:39: Require stack:
+2023-07-29 18:49:39: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:39:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:39:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:39:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:39:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:39:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:39:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:39:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:39:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:39:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:39:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:39:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:39:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:39: }
+2023-07-29 18:49:39: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:39: Require stack:
+2023-07-29 18:49:39: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:39:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:39:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:39:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:39:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:39:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:39:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:39:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:39:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:39:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:39:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:39:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:39:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:39: }
+2023-07-29 18:49:40: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:40: Require stack:
+2023-07-29 18:49:40: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:40:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:40:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:40:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:40:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:40:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:40:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:40:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:40:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:40:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:40:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:40:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:40:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:40: }
+2023-07-29 18:49:41: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:41: Require stack:
+2023-07-29 18:49:41: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:41:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:41:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:41:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:41:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:41:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:41:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:41:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:41:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:41:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:41:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:41:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:41:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:41: }
+2023-07-29 18:49:42: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:42: Require stack:
+2023-07-29 18:49:42: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:42:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:42:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:42:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:42:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:42:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:42:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:42:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:42:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:42:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:42:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:42:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:42:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:42: }
+2023-07-29 18:49:43: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:43: Require stack:
+2023-07-29 18:49:43: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:43:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:43:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:43:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:43:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:43:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:43:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:43:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:43:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:43:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:43:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:43:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:43:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:43: }
+2023-07-29 18:49:43: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:43: Require stack:
+2023-07-29 18:49:43: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:43:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:43:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:43:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:43:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:43:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:43:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:43:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:43:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:43:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:43:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:43:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:43:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:43: }
+2023-07-29 18:49:44: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:44: Require stack:
+2023-07-29 18:49:44: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:44:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:44:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:44:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:44:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:44:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:44:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:44:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:44:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:44:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:44:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:44:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:44:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:44: }
+2023-07-29 18:49:45: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:45: Require stack:
+2023-07-29 18:49:45: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:45:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:45:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:45:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:45:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:45:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:45:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:45:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:45:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:45:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:45:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:45:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:45:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:45: }
+2023-07-29 18:49:46: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:46: Require stack:
+2023-07-29 18:49:46: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:46:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:46:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:46:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:46:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:46:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:46:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:46:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:46:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:46:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:46:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:46: }
+2023-07-29 18:49:46: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:46: Require stack:
+2023-07-29 18:49:46: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:46:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:46:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:46:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:46:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:46:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:46:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:46:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:46:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:46:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:46:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:46:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:46: }
+2023-07-29 18:49:47: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:47: Require stack:
+2023-07-29 18:49:47: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:47:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:47:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:47:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:47:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:47:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:47:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:47:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:47:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:47:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:47:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:47:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:47:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:47: }
+2023-07-29 18:49:48: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:48: Require stack:
+2023-07-29 18:49:48: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:48:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:48:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:48:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:48:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:48:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:48:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:48:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:48:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:48:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:48:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:48:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:48:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:48: }
+2023-07-29 18:49:49: Error: Cannot find module 'nodemailer-mailgun-transport'
+2023-07-29 18:49:49: Require stack:
+2023-07-29 18:49:49: - D:\systemHeco\server\server0.js
+2023-07-29 18:49:49:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 18:49:49:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 18:49:49:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 18:49:49:     at Object.<anonymous> (D:\systemHeco\server\server0.js:4:26)
+2023-07-29 18:49:49:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 18:49:49:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 18:49:49:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 18:49:49:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 18:49:49:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 18:49:49:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 18:49:49:   code: 'MODULE_NOT_FOUND',
+2023-07-29 18:49:49:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 18:49:49: }
+2023-07-29 21:48:23: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:23: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:23: ^^^^^^
+2023-07-29 21:48:23: 
+2023-07-29 21:48:23: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:23:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:23:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:23:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:23:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:23:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:23:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:23:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:23:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:23:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:23:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:24: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:24: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:24: ^^^^^^
+2023-07-29 21:48:24: 
+2023-07-29 21:48:24: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:24:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:24:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:24:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:24:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:24:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:24:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:24:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:24:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:24:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:24:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:24: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:24: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:24: ^^^^^^
+2023-07-29 21:48:24: 
+2023-07-29 21:48:24: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:24:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:24:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:24:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:24:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:24:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:24:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:24:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:24:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:24:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:24:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:25: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:25: ^^^^^^
+2023-07-29 21:48:25: 
+2023-07-29 21:48:25: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:25:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:25:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:25:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:25: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:25: ^^^^^^
+2023-07-29 21:48:25: 
+2023-07-29 21:48:25: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:25:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:25:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:25:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:25: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:25: ^^^^^^
+2023-07-29 21:48:25: 
+2023-07-29 21:48:25: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:25:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:25:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:25:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:25:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:25:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:25:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:25:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:26: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:26: ^^^^^^
+2023-07-29 21:48:26: 
+2023-07-29 21:48:26: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:26:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:26:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:26:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:26: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:26: ^^^^^^
+2023-07-29 21:48:26: 
+2023-07-29 21:48:26: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:26:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:26:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:26:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:26: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:26: ^^^^^^
+2023-07-29 21:48:26: 
+2023-07-29 21:48:26: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:26:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:26:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:26:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:26:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:26:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:26:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:26:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:27: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:27: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:27: ^^^^^^
+2023-07-29 21:48:27: 
+2023-07-29 21:48:27: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:27:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:27:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:27:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:27:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:27:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:27: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:27: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:27: ^^^^^^
+2023-07-29 21:48:27: 
+2023-07-29 21:48:27: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:27:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:27:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:27:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:27:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:27:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:27:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:27:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:27:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:28: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:28: ^^^^^^
+2023-07-29 21:48:28: 
+2023-07-29 21:48:28: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:28:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:28:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:28:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:28: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:28: ^^^^^^
+2023-07-29 21:48:28: 
+2023-07-29 21:48:28: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:28:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:28:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:28:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:28: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:28: ^^^^^^
+2023-07-29 21:48:28: 
+2023-07-29 21:48:28: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:28:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:28:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:28:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:28:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:28:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:28:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:28:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:29: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:29: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:29: ^^^^^^
+2023-07-29 21:48:29: 
+2023-07-29 21:48:29: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:29:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:29:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:29:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:29:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:29:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:29:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:29:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:29:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:29:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:29:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:29: D:\systemHeco\server\server0.js:1
+2023-07-29 21:48:29: import {PrismaClient} from "@prisma/client"
+2023-07-29 21:48:29: ^^^^^^
+2023-07-29 21:48:29: 
+2023-07-29 21:48:29: SyntaxError: Cannot use import statement outside a module
+2023-07-29 21:48:29:     at internalCompileFunction (node:internal/vm:73:18)
+2023-07-29 21:48:29:     at wrapSafe (node:internal/modules/cjs/loader:1176:20)
+2023-07-29 21:48:29:     at Module._compile (node:internal/modules/cjs/loader:1218:27)
+2023-07-29 21:48:29:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:29:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:48:29:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:48:29:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:48:29:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:48:29:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:48:29:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:11: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:11: Require stack:
+2023-07-29 21:50:11: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:11:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:11:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:11:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:11:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:11:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:11:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:11:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:11:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:11:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:11:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:11: }
+2023-07-29 21:50:11: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:11: Require stack:
+2023-07-29 21:50:11: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:11:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:11:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:11:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:11:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:11:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:11:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:11:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:11:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:11:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:11:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:11:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:11: }
+2023-07-29 21:50:12: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:12: Require stack:
+2023-07-29 21:50:12: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:12:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:12:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:12:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:12:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:12:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:12:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:12:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:12:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:12: }
+2023-07-29 21:50:12: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:12: Require stack:
+2023-07-29 21:50:12: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:12:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:12:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:12:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:12:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:12:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:12:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:12:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:12:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:12: }
+2023-07-29 21:50:12: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:12: Require stack:
+2023-07-29 21:50:12: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:12:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:12:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:12:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:12:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:12:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:12:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:12:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:12:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:12:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:12:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:12: }
+2023-07-29 21:50:13: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:13: Require stack:
+2023-07-29 21:50:13: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:13:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:13:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:13:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:13:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:13:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:13:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:13:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:13:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:13: }
+2023-07-29 21:50:13: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:13: Require stack:
+2023-07-29 21:50:13: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:13:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:13:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:13:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:13:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:13:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:13:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:13:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:13:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:13: }
+2023-07-29 21:50:13: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:13: Require stack:
+2023-07-29 21:50:13: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:13:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:13:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:13:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:13:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:13:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:13:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:13:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:13:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:13:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:13:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:13: }
+2023-07-29 21:50:14: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:14: Require stack:
+2023-07-29 21:50:14: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:14:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:14:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:14:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:14:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:14:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:14:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:14:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:14:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:14: }
+2023-07-29 21:50:14: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:14: Require stack:
+2023-07-29 21:50:14: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:14:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:14:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:14:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:14:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:14:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:14:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:14:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:14:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:14: }
+2023-07-29 21:50:14: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:14: Require stack:
+2023-07-29 21:50:14: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:14:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:14:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:14:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:14:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:14:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:14:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:14:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:14:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:14:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:14:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:14: }
+2023-07-29 21:50:15: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:15: Require stack:
+2023-07-29 21:50:15: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:15:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:15:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:15:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:15:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:15:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:15:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:15:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:15:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:15: }
+2023-07-29 21:50:15: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:15: Require stack:
+2023-07-29 21:50:15: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:15:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:15:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:15:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:15:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:15:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:15:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:15:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:15:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:15: }
+2023-07-29 21:50:15: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:15: Require stack:
+2023-07-29 21:50:15: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:15:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:15:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:15:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:15:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:15:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:15:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:15:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:15:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:15: }
+2023-07-29 21:50:15: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:15: Require stack:
+2023-07-29 21:50:15: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:15:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:15:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:15:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:15:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:15:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:15:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:15:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:15:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:15:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:15:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:15: }
+2023-07-29 21:50:16: Error: Cannot find module '@prisma/client'
+2023-07-29 21:50:16: Require stack:
+2023-07-29 21:50:16: - D:\systemHeco\server\server0.js
+2023-07-29 21:50:16:     at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+2023-07-29 21:50:16:     at Hook._require.Module.require (D:\systemHeco\server\node_modules\require-in-the-middle\index.js:81:25)
+2023-07-29 21:50:16:     at require (node:internal/modules/cjs/helpers:110:18)
+2023-07-29 21:50:16:     at Object.<anonymous> (D:\systemHeco\server\server0.js:1:26)
+2023-07-29 21:50:16:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-29 21:50:16:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-29 21:50:16:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-29 21:50:16:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-29 21:50:16:     at Object.<anonymous> (D:\systemHeco\server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-29 21:50:16:     at Module._compile (node:internal/modules/cjs/loader:1254:14) {
+2023-07-29 21:50:16:   code: 'MODULE_NOT_FOUND',
+2023-07-29 21:50:16:   requireStack: [ 'D:\\systemHeco\\server\\server0.js' ]
+2023-07-29 21:50:16: }

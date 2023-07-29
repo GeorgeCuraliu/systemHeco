@@ -1,0 +1,151 @@
+2023-07-29 16:10:05: notAnEndPoint029
+2023-07-29 16:10:05: Server is running on http://localhost:3000
+2023-07-29 16:11:01: notAnEndPoint029
+2023-07-29 16:11:01: Server is running on http://localhost:3000
+2023-07-29 16:11:57: notAnEndPoint029
+2023-07-29 16:11:57: Server is running on http://localhost:3000
+2023-07-29 16:22:32: notAnEndPoint029
+2023-07-29 16:22:32: Server is running on http://localhost:3000
+2023-07-29 16:23:32: notAnEndPoint029
+2023-07-29 16:23:32: Server is running on http://localhost:3000
+2023-07-29 16:23:56: notAnEndPoint029
+2023-07-29 16:23:56: Server is running on http://localhost:3000
+2023-07-29 16:25:13: notAnEndPoint029
+2023-07-29 16:25:13: Server is running on http://localhost:3000
+2023-07-29 16:25:53: notAnEndPoint029
+2023-07-29 16:25:53: Server is running on http://localhost:3000
+2023-07-29 16:26:25: notAnEndPoint029
+2023-07-29 16:26:25: Server is running on http://localhost:3000
+2023-07-29 16:26:43: notAnEndPoint029
+2023-07-29 16:26:43: Server is running on http://localhost:3000
+2023-07-29 16:26:55: notAnEndPoint029
+2023-07-29 16:26:55: Server is running on http://localhost:3000
+2023-07-29 16:28:31: notAnEndPoint029
+2023-07-29 16:28:31: Server is running on http://localhost:3000
+2023-07-29 16:32:10: notAnEndPoint029
+2023-07-29 16:32:10: Server is running on http://localhost:3000
+2023-07-29 16:39:47: Closing all connections...
+2023-07-29 16:39:49: Finished closing connections
+2023-07-29 16:39:57: notAnEndPoint029
+2023-07-29 16:39:57: Server is running on http://localhost:3000
+2023-07-29 16:41:05: Closing all connections...
+2023-07-29 16:41:07: Finished closing connections
+2023-07-29 16:42:18: notAnEndPoint029
+2023-07-29 16:42:18: Server is running on http://localhost:3000
+2023-07-29 16:42:37: Closing all connections...
+2023-07-29 16:42:39: Finished closing connections
+2023-07-29 16:43:45: notAnEndPoint029
+2023-07-29 16:43:45: Server is running on http://localhost:3000
+2023-07-29 16:58:40: Closing all connections...
+2023-07-29 16:58:41: Finished closing connections
+2023-07-29 16:58:42: notAnEndPoint029
+2023-07-29 16:58:42: Server is running on http://localhost:3000
+2023-07-29 17:09:07: notAnEndPoint029
+2023-07-29 17:09:07: Server is running on http://localhost:3000
+2023-07-29 17:09:39: Closing all connections...
+2023-07-29 17:09:39: Error sending email: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+2023-07-29 17:09:39: 535 5.7.8  https://support.google.com/mail/?p=BadCredentials p15-20020a056000018f00b0030ae53550f5sm7547230wrx.51 - gsmtp
+2023-07-29 17:09:39:     at SMTPConnection._formatError (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+2023-07-29 17:09:39:     at SMTPConnection._actionAUTHComplete (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+2023-07-29 17:09:39:     at SMTPConnection.<anonymous> (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+2023-07-29 17:09:39:     at SMTPConnection._processResponse (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+2023-07-29 17:09:39:     at SMTPConnection._onData (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+2023-07-29 17:09:39:     at SMTPConnection._onSocketData (D:\systemHeco\server\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+2023-07-29 17:09:39:     at TLSSocket.emit (node:events:513:28)
+2023-07-29 17:09:39:     at addChunk (node:internal/streams/readable:324:12)
+2023-07-29 17:09:39:     at readableAddChunk (node:internal/streams/readable:297:9)
+2023-07-29 17:09:39:     at Readable.push (node:internal/streams/readable:234:10) {
+2023-07-29 17:09:39:   code: 'EAUTH',
+2023-07-29 17:09:39:   response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+2023-07-29 17:09:39:     '535 5.7.8  https://support.google.com/mail/?p=BadCredentials p15-20020a056000018f00b0030ae53550f5sm7547230wrx.51 - gsmtp',
+2023-07-29 17:09:39:   responseCode: 535,
+2023-07-29 17:09:39:   command: 'AUTH PLAIN'
+2023-07-29 17:09:39: }
+2023-07-29 18:50:36: notAnEndPoint029
+2023-07-29 18:50:36: Server is running on http://localhost:3000
+2023-07-29 18:50:45: Closing all connections...
+2023-07-29 18:50:46: Error sending email: [Error: Unauthorized] {
+2023-07-29 18:50:46:   status: 401,
+2023-07-29 18:50:46:   details: 'Forbidden',
+2023-07-29 18:50:46:   type: 'MailgunAPIError'
+2023-07-29 18:50:46: }
+2023-07-29 18:54:00: notAnEndPoint029
+2023-07-29 18:54:00: Server is running on http://localhost:3000
+2023-07-29 18:54:08: Closing all connections...
+2023-07-29 18:54:08: Error sending email: [Error: Unauthorized] {
+2023-07-29 18:54:08:   status: 401,
+2023-07-29 18:54:08:   details: 'Forbidden',
+2023-07-29 18:54:08:   type: 'MailgunAPIError'
+2023-07-29 18:54:08: }
+2023-07-29 19:04:52: notAnEndPoint029
+2023-07-29 19:04:52: Server is running on http://localhost:3000
+2023-07-29 19:05:01: Closing all connections...
+2023-07-29 19:05:02: [Error: Unauthorized] {
+2023-07-29 19:05:02:   status: 401,
+2023-07-29 19:05:02:   details: 'Forbidden',
+2023-07-29 19:05:02:   type: 'MailgunAPIError'
+2023-07-29 19:05:02: }
+2023-07-29 19:28:01: notAnEndPoint029
+2023-07-29 19:28:01: Server is running on http://localhost:3000
+2023-07-29 19:28:11: Closing all connections...
+2023-07-29 19:28:12: [Error: Unauthorized] {
+2023-07-29 19:28:12:   status: 401,
+2023-07-29 19:28:12:   details: 'Forbidden',
+2023-07-29 19:28:12:   type: 'MailgunAPIError'
+2023-07-29 19:28:12: }
+2023-07-29 19:35:52: notAnEndPoint029
+2023-07-29 19:35:52: Server is running on http://localhost:3000
+2023-07-29 19:35:58: Closing all connections...
+2023-07-29 19:35:59: [Error: Forbidden] {
+2023-07-29 19:35:59:   status: 403,
+2023-07-29 19:35:59:   details: 'Domain sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org is not allowed to send: Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.',
+2023-07-29 19:35:59:   type: 'MailgunAPIError'
+2023-07-29 19:35:59: }
+2023-07-29 19:37:36: notAnEndPoint029
+2023-07-29 19:37:36: Server is running on http://localhost:3000
+2023-07-29 19:37:46: Closing all connections...
+2023-07-29 19:37:46: [Error: Unauthorized] {
+2023-07-29 19:37:46:   status: 401,
+2023-07-29 19:37:46:   details: 'Forbidden',
+2023-07-29 19:37:46:   type: 'MailgunAPIError'
+2023-07-29 19:37:46: }
+2023-07-29 19:46:09: notAnEndPoint029
+2023-07-29 19:46:09: Server is running on http://localhost:3000
+2023-07-29 19:46:18: Closing all connections...
+2023-07-29 19:46:18: [Error: Forbidden] {
+2023-07-29 19:46:18:   status: 403,
+2023-07-29 19:46:18:   details: 'Domain sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org is not allowed to send: Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.',
+2023-07-29 19:46:18:   type: 'MailgunAPIError'
+2023-07-29 19:46:18: }
+2023-07-29 19:48:40: notAnEndPoint029
+2023-07-29 19:48:40: Server is running on http://localhost:3000
+2023-07-29 19:49:36: Closing all connections...
+2023-07-29 19:49:36: [Error: Forbidden] {
+2023-07-29 19:49:36:   status: 403,
+2023-07-29 19:49:36:   details: 'Domain sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org is not allowed to send: Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.',
+2023-07-29 19:49:36:   type: 'MailgunAPIError'
+2023-07-29 19:49:36: }
+2023-07-29 19:51:20: notAnEndPoint029
+2023-07-29 19:51:20: Server is running on http://localhost:3000
+2023-07-29 19:51:26: Closing all connections...
+2023-07-29 19:51:27: [Error: Forbidden] {
+2023-07-29 19:51:27:   status: 403,
+2023-07-29 19:51:27:   details: 'Domain sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org is not allowed to send: Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.',
+2023-07-29 19:51:27:   type: 'MailgunAPIError'
+2023-07-29 19:51:27: }
+2023-07-29 20:08:15: notAnEndPoint029
+2023-07-29 20:08:15: Server is running on http://localhost:3000
+2023-07-29 20:08:22: Closing all connections...
+2023-07-29 20:08:23: {
+2023-07-29 20:08:23:   status: 200,
+2023-07-29 20:08:23:   id: '<20230729170824.bdcd310ecb986bb7@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-29 20:08:23:   message: 'Queued. Thank you.'
+2023-07-29 20:08:23: }
+2023-07-29 20:13:55: notAnEndPoint029
+2023-07-29 20:13:55: Server is running on http://localhost:3000
+2023-07-29 20:14:14: Closing all connections...
+2023-07-29 20:14:14: {
+2023-07-29 20:14:14:   status: 200,
+2023-07-29 20:14:14:   id: '<20230729171416.eaaf048d49f7e9a1@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-29 20:14:14:   message: 'Queued. Thank you.'
+2023-07-29 20:14:14: }
