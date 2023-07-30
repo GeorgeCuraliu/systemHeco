@@ -10,10 +10,7 @@ module.exports = {
     shutdown_with_message: true,
     //instances : "max",   for production(will use all cpu cores -- around 100.000 users at same time) 
     //exec_mode : "cluster",
-    env_development:{
-      ENDPOINT: "notAnEndPoint029",
-      NUMBER: 2999
-    },
+    
     env_production:{
       ENDPOINT: "anEndPoint",
       NUMBER: 2009

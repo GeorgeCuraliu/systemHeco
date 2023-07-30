@@ -149,3 +149,255 @@
 2023-07-29 20:14:14:   id: '<20230729171416.eaaf048d49f7e9a1@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
 2023-07-29 20:14:14:   message: 'Queued. Thank you.'
 2023-07-29 20:14:14: }
+2023-07-29 23:13:58: notAnEndPoint029
+2023-07-29 23:13:58: Server is running on http://localhost:3000
+2023-07-29 23:14:12: Closing all connections...
+2023-07-29 23:14:51: notAnEndPoint029
+2023-07-29 23:14:51: Server is running on http://localhost:3000
+2023-07-29 23:14:59: Closing all connections...
+2023-07-29 23:21:17: notAnEndPoint029
+2023-07-29 23:21:17: Server is running on http://localhost:3000
+2023-07-29 23:21:17: some criticial error happened
+2023-07-29 23:21:38: Closing all connections...
+2023-07-29 23:21:38: notAnEndPoint029
+2023-07-29 23:21:38: Server is running on http://localhost:3000
+2023-07-29 23:21:38: PrismaClientInitializationError: 
+2023-07-29 23:21:38: Invalid `prisma.user.create()` invocation in
+2023-07-29 23:21:38: D:\systemHeco\test-server\server0.js:51:34
+2023-07-29 23:21:38: 
+2023-07-29 23:21:38:   48 
+2023-07-29 23:21:38:   49 
+2023-07-29 23:21:38:   50 const main = async () => {
+2023-07-29 23:21:38: → 51   const user = await prisma.user.create(
+2023-07-29 23:21:38: error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+2023-07-29 23:21:38:   -->  schema.prisma:10
+2023-07-29 23:21:38:    | 
+2023-07-29 23:21:38:  9 |   provider = "sqlite"
+2023-07-29 23:21:38: 10 |   url      = env("DATABASE_URL")
+2023-07-29 23:21:38:    | 
+2023-07-29 23:21:38: 
+2023-07-29 23:21:38: Validation Error Count: 1
+2023-07-29 23:21:38:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8581)
+2023-07-29 23:21:38:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-29 23:21:38:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307)
+2023-07-29 23:21:38:     at async main (D:\systemHeco\test-server\server0.js:51:16) {
+2023-07-29 23:21:38:   clientVersion: '5.0.0',
+2023-07-29 23:21:38:   errorCode: undefined
+2023-07-29 23:21:38: }
+2023-07-29 23:22:18: Closing all connections...
+2023-07-29 23:22:18: notAnEndPoint029
+2023-07-29 23:22:18: Server is running on http://localhost:3000
+2023-07-29 23:22:18: PrismaClientKnownRequestError: 
+2023-07-29 23:22:18: Invalid `prisma.user.create()` invocation in
+2023-07-29 23:22:18: D:\systemHeco\test-server\server0.js:51:34
+2023-07-29 23:22:18: 
+2023-07-29 23:22:18:   48 
+2023-07-29 23:22:18:   49 
+2023-07-29 23:22:18:   50 const main = async () => {
+2023-07-29 23:22:18: → 51   const user = await prisma.user.create(
+2023-07-29 23:22:18: The table `main.User` does not exist in the current database.
+2023-07-29 23:22:18:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-29 23:22:18:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-29 23:22:18:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307)
+2023-07-29 23:22:18:     at async main (D:\systemHeco\test-server\server0.js:51:16) {
+2023-07-29 23:22:18:   code: 'P2021',
+2023-07-29 23:22:18:   clientVersion: '5.0.0',
+2023-07-29 23:22:18:   meta: { table: 'main.User' }
+2023-07-29 23:22:18: }
+2023-07-29 23:23:37: Closing all connections...
+2023-07-29 23:23:38: notAnEndPoint029
+2023-07-29 23:23:38: Server is running on http://localhost:3000
+2023-07-29 23:23:38: PrismaClientKnownRequestError: 
+2023-07-29 23:23:38: Invalid `prisma.user.create()` invocation in
+2023-07-29 23:23:38: D:\systemHeco\test-server\server0.js:51:34
+2023-07-29 23:23:38: 
+2023-07-29 23:23:38:   48 
+2023-07-29 23:23:38:   49 
+2023-07-29 23:23:38:   50 const main = async () => {
+2023-07-29 23:23:38: → 51   const user = await prisma.user.create(
+2023-07-29 23:23:38: The table `main.User` does not exist in the current database.
+2023-07-29 23:23:38:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-29 23:23:38:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-29 23:23:38:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307)
+2023-07-29 23:23:38:     at async main (D:\systemHeco\test-server\server0.js:51:16) {
+2023-07-29 23:23:38:   code: 'P2021',
+2023-07-29 23:23:38:   clientVersion: '5.0.0',
+2023-07-29 23:23:38:   meta: { table: 'main.User' }
+2023-07-29 23:23:38: }
+2023-07-30 11:44:58: Closing all connections...
+2023-07-30 11:45:06: notAnEndPoint029
+2023-07-30 11:45:06: Server is running on http://localhost:3000
+2023-07-30 11:45:07: PrismaClientKnownRequestError: 
+2023-07-30 11:45:07: Invalid `prisma.user.create()` invocation in
+2023-07-30 11:45:07: D:\systemHeco\test-server\server0.js:51:34
+2023-07-30 11:45:07: 
+2023-07-30 11:45:07:   48 
+2023-07-30 11:45:07:   49 
+2023-07-30 11:45:07:   50 const main = async () => {
+2023-07-30 11:45:07: → 51   const user = await prisma.user.create(
+2023-07-30 11:45:07: The table `main.User` does not exist in the current database.
+2023-07-30 11:45:07:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-30 11:45:07:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-30 11:45:07:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307)
+2023-07-30 11:45:07:     at async main (D:\systemHeco\test-server\server0.js:51:16) {
+2023-07-30 11:45:07:   code: 'P2021',
+2023-07-30 11:45:07:   clientVersion: '5.0.0',
+2023-07-30 11:45:07:   meta: { table: 'main.User' }
+2023-07-30 11:45:07: }
+2023-07-30 11:46:39: Closing all connections...
+2023-07-30 11:46:50: notAnEndPoint029
+2023-07-30 11:46:50: Server is running on http://localhost:3000
+2023-07-30 11:46:50: PrismaClientKnownRequestError: 
+2023-07-30 11:46:50: Invalid `prisma.user.create()` invocation in
+2023-07-30 11:46:50: D:\systemHeco\test-server\server0.js:51:34
+2023-07-30 11:46:50: 
+2023-07-30 11:46:50:   48 
+2023-07-30 11:46:50:   49 
+2023-07-30 11:46:50:   50 const main = async () => {
+2023-07-30 11:46:50: → 51   const user = await prisma.user.create(
+2023-07-30 11:46:50: The table `main.User` does not exist in the current database.
+2023-07-30 11:46:50:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-30 11:46:50:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-30 11:46:50:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307)
+2023-07-30 11:46:50:     at async main (D:\systemHeco\test-server\server0.js:51:16) {
+2023-07-30 11:46:50:   code: 'P2021',
+2023-07-30 11:46:50:   clientVersion: '5.0.0',
+2023-07-30 11:46:50:   meta: { table: 'main.User' }
+2023-07-30 11:46:50: }
+2023-07-30 11:48:13: Closing all connections...
+2023-07-30 11:48:14: notAnEndPoint029
+2023-07-30 11:48:14: Server is running on http://localhost:3000
+2023-07-30 11:48:15: { name: 'kyle', likedNumber: 23 }
+2023-07-30 11:51:52: Closing all connections...
+2023-07-30 11:51:52: notAnEndPoint029
+2023-07-30 11:51:52: Server is running on http://localhost:3000
+2023-07-30 11:51:53: { name: 'kyle', likedNumber: 23 }
+2023-07-30 14:40:34: Closing all connections...
+2023-07-30 14:40:35: notAnEndPoint029
+2023-07-30 14:40:35: Server is running on http://localhost:3000
+2023-07-30 14:40:35: { name: 'kyle', likedNumber: 23 }
+2023-07-30 14:42:52: Closing all connections...
+2023-07-30 14:42:53: notAnEndPoint029
+2023-07-30 14:42:53: Server is running on http://localhost:3000
+2023-07-30 14:42:53: TypeError: prisma.user.findUniques is not a function
+2023-07-30 14:42:53:     at main (D:\systemHeco\test-server\server0.js:53:34)
+2023-07-30 14:42:53:     at Object.<anonymous> (D:\systemHeco\test-server\server0.js:59:1)
+2023-07-30 14:42:53:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-30 14:42:53:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-30 14:42:53:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-30 14:42:53:     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-07-30 14:42:53:     at Object.<anonymous> (D:\systemHeco\test-server\node_modules\pm2\lib\ProcessContainerFork.js:33:23)
+2023-07-30 14:42:53:     at Module._compile (node:internal/modules/cjs/loader:1254:14)
+2023-07-30 14:42:53:     at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+2023-07-30 14:42:53:     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-07-30 14:43:09: Closing all connections...
+2023-07-30 14:43:10: notAnEndPoint029
+2023-07-30 14:43:10: Server is running on http://localhost:3000
+2023-07-30 14:43:10: { name: 'kyle', likedNumber: 23 }
+2023-07-30 15:35:56: Closing all connections...
+2023-07-30 15:35:57: notAnEndPoint029
+2023-07-30 15:35:57: Server is running on http://localhost:3000
+2023-07-30 15:35:57: { name: 'kyle', likedNumber: 23 }
+2023-07-30 15:36:10: Closing all connections...
+2023-07-30 15:36:11: notAnEndPoint029
+2023-07-30 15:36:11: Server is running on http://localhost:3000
+2023-07-30 15:36:11: { name: 'kyle', likedNumber: 23 }
+2023-07-30 15:43:03: Closing all connections...
+2023-07-30 15:43:04: notAnEndPoint029
+2023-07-30 15:43:04: Server is running on http://localhost:3000
+2023-07-30 15:43:04: { name: 'vasily', likedNumber: 23 }
+2023-07-30 15:44:37: Closing all connections...
+2023-07-30 15:44:38: notAnEndPoint029
+2023-07-30 15:44:38: Server is running on http://localhost:3000
+2023-07-30 15:44:39: { name: 'vasily', likedNumber: 23 }
+2023-07-30 15:46:06: Closing all connections...
+2023-07-30 15:46:07: notAnEndPoint029
+2023-07-30 15:46:07: Server is running on http://localhost:3000
+2023-07-30 15:46:08: { name: 'kyle', likedNumber: 23 }
+2023-07-30 15:50:03: Closing all connections...
+2023-07-30 15:50:04: notAnEndPoint029
+2023-07-30 15:50:04: Server is running on http://localhost:3000
+2023-07-30 18:01:10: Closing all connections...
+2023-07-30 18:01:14: notAnEndPoint029
+2023-07-30 18:01:14: Server is running on http://localhost:3000
+2023-07-30 18:01:18: notAnEndPoint029
+2023-07-30 18:01:18: Server is running on http://localhost:3000
+2023-07-30 18:01:22: notAnEndPoint029
+2023-07-30 18:01:22: Server is running on http://localhost:3000
+2023-07-30 18:01:25: notAnEndPoint029
+2023-07-30 18:01:25: Server is running on http://localhost:3000
+2023-07-30 18:01:29: notAnEndPoint029
+2023-07-30 18:01:29: Server is running on http://localhost:3000
+2023-07-30 18:01:31: Closing all connections...
+2023-07-30 18:01:31: notAnEndPoint029
+2023-07-30 18:01:31: Server is running on http://localhost:3000
+2023-07-30 19:31:27: Closing all connections...
+2023-07-30 19:31:32: notAnEndPoint029
+2023-07-30 19:31:32: Server is running on http://localhost:3000
+2023-07-30 19:31:34: some processing thing here
+2023-07-30 19:31:36: server admin alerted about the error
+2023-07-30 19:33:58: Closing all connections...
+2023-07-30 19:33:59: notAnEndPoint029
+2023-07-30 19:33:59: Server is running on http://localhost:3000
+2023-07-30 19:34:06: some processing thing here
+2023-07-30 19:34:06: PrismaClientKnownRequestError: 
+2023-07-30 19:34:06: Invalid `prisma.user.create()` invocation in
+2023-07-30 19:34:06: D:\systemHeco\test-server\server0.js:41:15
+2023-07-30 19:34:06: 
+2023-07-30 19:34:06:   38 
+2023-07-30 19:34:06:   39 console.log("some processing thing here");
+2023-07-30 19:34:06:   40 
+2023-07-30 19:34:06: → 41 prisma.user.create(
+2023-07-30 19:34:06: Unique constraint failed on the fields: (`name`)
+2023-07-30 19:34:06:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-30 19:34:06:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-30 19:34:06:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307) {
+2023-07-30 19:34:06:   code: 'P2002',
+2023-07-30 19:34:06:   clientVersion: '5.0.0',
+2023-07-30 19:34:06:   meta: { target: [ 'name' ] }
+2023-07-30 19:34:06: }
+2023-07-30 19:34:06: {
+2023-07-30 19:34:06:   status: 200,
+2023-07-30 19:34:06:   id: '<20230730163406.8c82aba66f42ce4c@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-30 19:34:06:   message: 'Queued. Thank you.'
+2023-07-30 19:34:06: }
+2023-07-30 19:35:18: some processing thing here
+2023-07-30 19:35:19: {
+2023-07-30 19:35:19:   status: 200,
+2023-07-30 19:35:19:   id: '<20230730163519.61b0a4ca02c229d7@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-30 19:35:19:   message: 'Queued. Thank you.'
+2023-07-30 19:35:19: }
+2023-07-30 19:35:52: Closing all connections...
+2023-07-30 19:35:53: notAnEndPoint029
+2023-07-30 19:35:53: Server is running on http://localhost:3000
+2023-07-30 19:36:07: Closing all connections...
+2023-07-30 19:36:08: notAnEndPoint029
+2023-07-30 19:36:08: Server is running on http://localhost:3000
+2023-07-30 19:36:15: some processing thing here
+2023-07-30 19:36:16: {
+2023-07-30 19:36:16:   status: 200,
+2023-07-30 19:36:16:   id: '<20230730163616.57f15be50f77c313@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-30 19:36:16:   message: 'Queued. Thank you.'
+2023-07-30 19:36:16: }
+2023-07-30 19:45:02: some processing thing here
+2023-07-30 19:45:02: PrismaClientKnownRequestError: 
+2023-07-30 19:45:02: Invalid `prisma.user.create()` invocation in
+2023-07-30 19:45:02: D:\systemHeco\test-server\server0.js:41:15
+2023-07-30 19:45:02: 
+2023-07-30 19:45:02:   38 
+2023-07-30 19:45:02:   39 console.log("some processing thing here");
+2023-07-30 19:45:02:   40 
+2023-07-30 19:45:02: → 41 prisma.user.create(
+2023-07-30 19:45:02: Unique constraint failed on the fields: (`name`)
+2023-07-30 19:45:02:     at zr.handleRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:8308)
+2023-07-30 19:45:02:     at zr.handleAndLogRequestError (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7697)
+2023-07-30 19:45:02:     at zr.request (D:\systemHeco\test-server\node_modules\@prisma\client\runtime\library.js:122:7307) {
+2023-07-30 19:45:02:   code: 'P2002',
+2023-07-30 19:45:02:   clientVersion: '5.0.0',
+2023-07-30 19:45:02:   meta: { target: [ 'name' ] }
+2023-07-30 19:45:02: }
+2023-07-30 19:45:03: {
+2023-07-30 19:45:03:   status: 200,
+2023-07-30 19:45:03:   id: '<20230730164503.a4fb029b334edb59@sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org>',
+2023-07-30 19:45:03:   message: 'Queued. Thank you.'
+2023-07-30 19:45:03: }

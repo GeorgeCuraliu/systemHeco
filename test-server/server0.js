@@ -14,50 +14,113 @@ app.use(cors());
 
 
 
+
+
+
+
+
+
 process.on('message', function(msg) {//for windows shut down or system error that will restart the file
   if (msg == 'shutdown') {
     console.log('Closing all connections...')
     
 
-
-    //SAMLE CODE FOR SENDING ERROR MAILS
-
-    // const apiKey = '269f09a8c3f36a921814441fe687f718-73f745ed-7dbcde75';
-    // const domain = 'sandboxcb81f52fe3684ab986b971bdeed0bfa6.mailgun.org';
-
-
-    // const mailgun = new Mailgun(formData);
-    // const mg = mailgun.client({username: 'myComapny awd', key: apiKey});
-
-    // let sendDate = new Date();
-
-    // mg.messages.create(domain, {
-    //   from: "<test5270872@gmail.com>",
-    //   to: ["georgecuraliu@gmail.com"],
-    //   subject: "SYSTEM CRITICAL ERROR    CODE--231",
-    //   text: `CRITICAL ERROR AT --SOME ERROR-- AT ${sendDate.getDay()} ${sendDate.getHours()} ${sendDate.getMinutes()}`,
-    //   html: "<h1>ACCES THE SERVER AS SOON AS POSSIBLE TO HANDLE THE ERROR FROM ERROR LOGS</h1>"
-    // })
-    // .then(msg => console.log("server admin alerted about the error")) // logs response data
-    // .catch(err => console.log(err));
+    alertAdmins(0);
     
-
+    
+    process.exit(0);
 
   }
 })
 
 
+app.post("/testEndpoint", (req, res) => {
+
+  console.log("some processing thing here");
+
+  prisma.user.create({data: {name: req.body.name, likedNumber: req.body.likedNumber}})
+  .catch(err => {
+    console.log(err);
+  })
+  .finally(() => {
+    alertAdmins(826)
+    res.status(200).send("data received but some critical error ocurred")
+  })
+
+
+})
+
+
+
+const alertAdmins = (errCode) => {
+
+    //SAMLE CODE FOR SENDING ERROR MAILS
+
+    const apiKey = process.env.API_KEY;
+    const domain = process.env.DOMAIN;
+
+
+    const mailgun = new Mailgun(formData);
+    const mg = mailgun.client({username: 'myComapny awd', key: apiKey});
+
+    let sendDate = new Date();
+
+    mg.messages.create(domain, {
+      from: " SYS <test5270872@gmail.com>",
+      to: ["georgecuraliu@gmail.com"],
+      subject: "SYSTEM CRITICAL ERROR",
+      text: `CRITICAL ERROR`,
+      html: `CRITICAL ERROR AT --${errCode}-- AT ${sendDate.getDay()} ${sendDate.getHours()} ${sendDate.getMinutes()}`
+    })
+    .then(msg => console.log(msg)) // logs response data
+    .catch(err => console.log(err));
+
+}
+
+
+
+
+//PRISMA USE MODEL
+
 const main = async () => {
-  
+  //const user = await prisma.user.create({data: {name: "kyle", likedNumber :23}})
+  //const user = await prisma.user.findFirst()
+  // const user = await prisma.user.findUnique({where: {name: "kyle"}})
+  // const user = await prisma.user.update({where: {name: "kyle"}, data:{name: "vasily"}})
+  //const user = await prisma.user.delete({where: {name:"vasily"}})
+  //console.log(user)
 }
 
 main()
   .catch(err => {
-    console.log("some criticial error happened")
+    console.log(err)
   })
   .finally(async () => {
     await prisma.$disconnect();
   })
+
+
+
+
+
+
+
+
+
+
+
+  const crashTest = async () => {//just a carsh test
+    await new Promise(resolve => setTimeout(resolve, 3000));
+    //process.exit(0);
+  }
+
+
+
+
+
+
+
+
 
 
 app.listen(port, () => {
