@@ -3,11 +3,15 @@ const express = require('express');
 const cors = require('cors');
 const formData = require('form-data');
 const Mailgun = require('mailgun.js');
+var cookieParser = require('cookie-parser')
+const jwt = require('jsonwebtoken');//encrypt the cookie token
+const CryptoJS = require('crypto-js');//encrypt a word based on a key
 
 const app = express();
 const port = 3000;
 const prisma = new PrismaClient();
 
+app.use(cookieParser());
 app.use(express.json());
 app.use(cors());
 
@@ -25,13 +29,99 @@ process.on('message', function(msg) {//for windows shut down or system error tha
     console.log('Closing all connections...')
     
 
-    alertAdmins(0);
+    //alertAdmins(0);
     
     
     process.exit(0);
 
   }
 })
+
+
+
+
+
+//EXAMPLE FOR ENCRYPTING A USERNAME BASED ON A KEY
+
+function encryptWord(word, key) {
+  // Convert the key to a format accepted by AES (required 16 bytes / 128 bits)
+  const keyBytes = CryptoJS.enc.Utf8.parse(key);
+
+  // Encrypt the word using AES with the provided key
+  const encrypted = CryptoJS.AES.encrypt(word, keyBytes, {
+    mode: CryptoJS.mode.ECB, // Electronic Codebook mode (simplified for example)
+    padding: CryptoJS.pad.Pkcs7, // PKCS#7 padding (simplified for example)
+  });
+
+  // Return the encrypted word as a base64-encoded string
+  return encrypted.toString();
+}
+
+function decryptWord(encryptedWord, key) {
+  // Convert the key to a format accepted by AES
+  const keyBytes = CryptoJS.enc.Utf8.parse(key);
+
+  // Decrypt the encrypted word using the provided key
+  const decrypted = CryptoJS.AES.decrypt(encryptedWord, keyBytes, {
+    mode: CryptoJS.mode.ECB, // Electronic Codebook mode (simplified for example)
+    padding: CryptoJS.pad.Pkcs7, // PKCS#7 padding (simplified for example)
+  });
+
+  // Return the decrypted word as a UTF-8 string
+  return decrypted.toString(CryptoJS.enc.Utf8);
+}
+
+
+
+
+
+
+
+
+
+
+
+//EXAMPLE FOR COOKIE PARSER + JSON WEB TOKENS
+
+const secretKey = "yourActualSecretKey";
+app.post('/login', (req, res) => {
+  const username = encryptWord("i like banana", "secretservercode");
+  console.log(username);
+  jwt.sign({ username: username }, secretKey, (err, token) => {
+    console.log(token);
+    res.cookie('access_token', token, { maxAge: 86400 * 1000, httpOnly: true, sameSite: 'lax' });
+    res.json({ message: 'Login successful' });
+  });
+});
+
+// Endpoint to access protected data
+app.get('/protected', (req, res) => {
+  // Verify the token from the cookie
+  console.log(req.cookies);
+  
+  const token = req.cookies.access_token;
+
+  if (!token) {
+    console.log("no data :(")
+    return res.status(401).json({ error: 'Unauthorized' });
+  }
+
+  try {
+    // Verify the token and extract the payload data
+    const decoded = jwt.verify(token, secretKey);
+    res.json({ message: `Hello, ${decoded.username}! This is a protected route.` });
+  } catch (err) {
+    res.status(401).json({ error: 'Invalid token' });
+  }
+});
+
+
+
+
+
+
+
+
 
 
 app.post("/testEndpoint", (req, res) => {
@@ -111,7 +201,7 @@ main()
 
   const crashTest = async () => {//just a carsh test
     await new Promise(resolve => setTimeout(resolve, 3000));
-    //process.exit(0);
+    process.exit(0);
   }
 
 
