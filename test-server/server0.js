@@ -24,16 +24,16 @@ app.use(cors());
 
 
 
-process.on('message', function(msg) {//for windows shut down or system error that will restart the file
+process.on('message', (msg) => {//for windows shut down or system error that will restart the file
   if (msg == 'shutdown') {
     console.log('Closing all connections...')
     
 
     //alertAdmins(0);
-    
+    //disconnect from db, alert admins and die with honor
     
     process.exit(0);
-
+    //die with honor
   }
 })
 
@@ -42,7 +42,7 @@ process.on('message', function(msg) {//for windows shut down or system error tha
 
 
 //EXAMPLE FOR ENCRYPTING A USERNAME BASED ON A KEY
-
+//UTF8
 function encryptWord(word, key) {
   // Convert the key to a format accepted by AES (required 16 bytes / 128 bits)
   const keyBytes = CryptoJS.enc.Utf8.parse(key);
@@ -141,6 +141,12 @@ app.post("/testEndpoint", (req, res) => {
 })
 
 
+app.post("/testAES", (req, res) => {
+  console.log(testAES() + " sending the string to user")//gona need a promise to await for encryption(looks like AES is async)
+  res.send(testAES());//without an async will return just UNDEFINED (THE ABSOLUTE)        
+})
+
+
 
 const alertAdmins = (errCode) => {
 
@@ -167,6 +173,33 @@ const alertAdmins = (errCode) => {
 
 }
 
+
+
+
+const testAES = async () => {
+  const encryptionKey = "awd";//will get these from request(key will be the password)
+  const originalMessage = "some message";
+
+  //cant use JSON.stringify() `cause the $super and the encrypted data
+
+  // Encryption
+  const encryptedData = CryptoJS.AES.encrypt(originalMessage, encryptionKey).toString();
+  console.log("Encrypted Data:", encryptedData);
+
+  // Store the encrypted data in the database (you can use this in your Prisma create method)
+  const info = await prisma.user.create({ data: { name: encryptedData, likedNumber: 23 } });
+  console.log("Stored Data Info:", info);
+
+  // Decryption
+  const encryptedDataFromDatabase = info.name; // Replace 'info.name' with the actual field name from your Prisma model.
+  const decryptedData = CryptoJS.AES.decrypt(encryptedDataFromDatabase, encryptionKey).toString(CryptoJS.enc.Utf8);
+  console.log("Decrypted Data:", decryptedData);
+
+  return encryptedData; // You can choose to return the encrypted data or anything else as per your requirement.
+}
+
+
+//test21();
 
 
 
@@ -199,7 +232,7 @@ main()
 
 
 
-  const crashTest = async () => {//just a carsh test
+  const crashTest = async () => {//just a crash test(will crash the app -- app go boom boom)
     await new Promise(resolve => setTimeout(resolve, 3000));
     process.exit(0);
   }

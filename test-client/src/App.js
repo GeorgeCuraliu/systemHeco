@@ -25,10 +25,19 @@ function App() {
     })
   }
 
+
+  const testAES = () => {
+    axios.post("http://localhost:3000/testAES", {})
+    .then(response => {
+      console.log(response)
+    })
+  }
+
   return (
     <div>
       <button onClick={sendMessage}>Make an action to server</button>
       <button onClick={tryProtected}>Some protected thing</button>
+      <button onClick={testAES}>Test AES</button>
     </div>
     )
 }

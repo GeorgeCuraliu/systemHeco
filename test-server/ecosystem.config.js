@@ -11,9 +11,5 @@ module.exports = {
     //instances : "max",   for production(will use all cpu cores -- around 100.000 users at same time) 
     //exec_mode : "cluster",
     
-    env_production:{
-      ENDPOINT: "anEndPoint",
-      NUMBER: 2009
-    }
   }]
 }
